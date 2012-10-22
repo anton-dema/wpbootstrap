@@ -60,7 +60,6 @@
 -->
 
   </head>
-
   <body>
 
     <div class="navbar navbar navbar-fixed-top">
@@ -83,6 +82,7 @@
 <form class="navbar-search pull-right" form role="search" method="get" id="searchform"  action="<?php echo home_url( '/' ); ?>">
 <input type="text" value="" name="s" id="s" class="search-query span2" placeholder="Search">
 </form>
+<a href="https://github.com/anton-dema/wpbootstrap"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 
         </div>
