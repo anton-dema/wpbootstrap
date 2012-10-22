@@ -6,5 +6,5 @@ and css has been taken from http://bootswatch.com/cerulean/
 <p>
 All credit goes to Zac Gordon and his tutorial published in the link above.
 
-This themes is licensed <a href="http://creativecommons.org/licenses/by-sa/3.0/">Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</a>  
+This theme is licensed <a href="http://creativecommons.org/licenses/by-sa/3.0/">Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</a>  
 </p>
