@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function wpbootstrap_scripts_with_jquery()
 {
@@ -48,17 +48,17 @@ function page_navi($before = '', $after = '') {
 	if($start_page <= 0) {
 		$start_page = 1;
 	}
-		
+
 	echo $before.'<div class="pagination"><ul class="clearfix">'."";
 	if ($paged > 1) {
 		$first_page_text = "«";
 		echo '<li class="prev"><a href="'.get_pagenum_link().'" title="First">'.$first_page_text.'</a></li>';
 	}
-		
+
 	$prevposts = get_previous_posts_link('← Previous');
 	if($prevposts) { echo '<li>' . $prevposts  . '</li>'; }
 	else { echo '<li class="disabled"><a href="#">← Previous</a></li>'; }
-	
+
 	for($i = $start_page; $i  <= $end_page; $i++) {
 		if($i == $paged) {
 			echo '<li class="active"><a href="#">'.$i.'</a></li>';
@@ -78,16 +78,3 @@ function page_navi($before = '', $after = '') {
 
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
